@@ -44,7 +44,7 @@ public class Prestamo {
     private char estado;
 
    @Column(name = "tipo_prestamo")
-    private String tipoPrestamo;
+    private char tipoPrestamo;
 
     @ManyToMany(mappedBy= "prestamos", cascade = CascadeType.ALL)
     private Set<Cliente> clientes = new HashSet<>();
