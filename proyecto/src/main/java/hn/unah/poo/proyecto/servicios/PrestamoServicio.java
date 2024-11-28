@@ -10,4 +10,6 @@ public class PrestamoServicio {
 
     @Autowired
     private PrestamosRepositorio prestamosRepositorio;
+
+    
 }
